@@ -6,6 +6,6 @@ const record = [
 ]
 function testFunc(record) {
     return record.find(e => e.result == "W").year;
-  
+
 }
 console.log(testFunc(record));
