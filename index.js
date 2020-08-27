@@ -9,7 +9,7 @@ function testFunc(record) {
   if (f.year=="")
   return undefined;
   else
-  
-  
+
+
   return f.year;
 }
