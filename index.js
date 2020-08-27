@@ -5,10 +5,7 @@ const record = [
   //...
 ]
 function testFunc(record) {
-    let f = record.find(e => e.result == "W");
-    if (f == undefined)
-        return undefined;
-    else
-        return f.year;
+    return record.find(e => e.result == "W").year;
+  
 }
 console.log(testFunc(record));
